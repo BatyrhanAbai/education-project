@@ -8,10 +8,19 @@ body{
 }
 header{
     background-color: yellow;
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
+ul{
+    display: grid;
+    grid-template-rows: auto ;
+    grid-template-columns: repeat(3, auto);
+}
+
 .slider{
     background-color: darkmagenta;
 }
+
 article{
     background-color: hotpink;
 }

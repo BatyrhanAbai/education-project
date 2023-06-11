@@ -1,0 +1,19 @@
+body{  
+    display: grid;
+    grid-template-rows: auto 1fr 1fr auto;
+}
+header{
+    background-color: yellow;
+}
+.slider{
+    background-color: darkmagenta;
+}
+article{
+    background-color: hotpink;
+}
+footer{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+
+}
